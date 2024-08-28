@@ -1,0 +1,103 @@
+{
+  "content-type": "urn:eclecticiq.com:json:3.0",
+  "enrichments": [],
+  "entities": [
+    {
+      "attachments": [],
+      "data": {
+        "behavior": {
+          "attack_patterns": [],
+          "type": "behavior"
+        },
+        "confidence": {
+          "type": "confidence",
+          "value": "Unknown"
+        },
+        "description": "<head></head><body></body>",
+        "description_structuring_format": "html",
+        "id": "{http://not-yet-configured.example.org/}attack-pattern-cacb76ed-563a-4dc8-8027-b40a38ba4151",
+        "information_source": {
+          "type": "information-source"
+        },
+        "timestamp": "",
+        "title": "Attack Pattern: AP ETS",
+        "type": "ttp"
+      },
+      "enrichment_extracts": [],
+      "external_url": "https://y-p-332.eng.eiq.sh/entity/cacb76ed-563a-4dc8-8027-b40a38ba4151",
+      "extracts": [],
+      "id": "cacb76ed-563a-4dc8-8027-b40a38ba4151",
+      "meta": {
+        "estimated_observed_time": "2024-08-28T14:01:18.293093+00:00",
+        "estimated_threat_start_time": "2024-08-28T14:01:18.293093+00:00",
+        "first_ingest_time": "2024-08-28T14:01:18.293093+00:00",
+        "half_life": 720,
+        "ingest_time": "2024-08-28T14:01:18.293093+00:00",
+        "source_reliability": null,
+        "tags": [],
+        "title": "AP ETS",
+        "tlp_color": null
+      },
+      "relevancy": 1.0,
+      "sources": [
+        {
+          "name": "cypress_group_84418183",
+          "source_id": "bb5bec67-3e77-436c-846e-2d9ed8287a70",
+          "source_type": "group"
+        }
+      ]
+    }
+  ],
+  "entities_v2": [
+    {
+      "attachments": [],
+      "data": {
+        "confidence": {
+          "type": "confidence",
+          "value": "Unknown"
+        },
+        "description": "<head></head><body></body>",
+        "description_structuring_format": "html",
+        "id": "{http://not-yet-configured.example.org/}attack-pattern-cacb76ed-563a-4dc8-8027-b40a38ba4151",
+        "information_source": {
+          "type": "information-source"
+        },
+        "timestamp": "",
+        "title": "AP ETS",
+        "type": "attack-pattern"
+      },
+      "enrichment_extracts": [],
+      "external_url": "https://y-p-332.eng.eiq.sh/entity/cacb76ed-563a-4dc8-8027-b40a38ba4151",
+      "extracts": [],
+      "id": "cacb76ed-563a-4dc8-8027-b40a38ba4151",
+      "meta": {
+        "estimated_observed_time": "2024-08-28T14:01:18.293093+00:00",
+        "estimated_threat_start_time": "2024-08-28T14:01:18.293093+00:00",
+        "first_ingest_time": "2024-08-28T14:01:18.293093+00:00",
+        "half_life": 720,
+        "ingest_time": "2024-08-28T14:01:18.293093+00:00",
+        "source_reliability": null,
+        "tags": [],
+        "title": "AP ETS",
+        "tlp_color": null
+      },
+      "relevancy": 1.0,
+      "sources": [
+        {
+          "name": "cypress_group_84418183",
+          "source_id": "bb5bec67-3e77-436c-846e-2d9ed8287a70",
+          "source_type": "group"
+        }
+      ]
+    }
+  ],
+  "entity_counts": {
+    "ttp": 1
+  },
+  "entity_counts_v2": {
+    "attack-pattern": 1
+  },
+  "outgoing_feed_name": "Exported Entities",
+  "platform-version": "3.3.2",
+  "timestamp": "2024-08-28T14:01:18.326188+00:00"
+}
