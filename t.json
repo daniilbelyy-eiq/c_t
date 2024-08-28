@@ -1,44 +1,91 @@
 {
   "content-type": "urn:eclecticiq.com:json:3.0",
   "enrichments": [],
-  "entities": [],
-  "entities_v2": [
+  "entities": [
     {
       "attachments": [],
       "data": {
-        "id": "{http://not-yet-configured.example.org/}attack-pattern-a6b22a94-f33e-4260-9b3a-d6a60e4d43f4",
+        "behavior": {
+          "attack_patterns": [],
+          "type": "behavior"
+        },
+        "confidence": {
+          "type": "confidence",
+          "value": "Unknown"
+        },
+        "description": "<head></head><body></body>",
+        "description_structuring_format": "html",
+        "id": "{http://not-yet-configured.example.org/}attack-pattern-85ddbec1-5e0d-4ebf-a766-a7c9c542f8c0",
         "information_source": {
-          "description": "entity is produced by user group",
-          "identity": {
-            "name": "R23",
-            "type": "identity"
-          },
           "type": "information-source"
         },
-        "timestamp": null,
-        "title": "U2: AP",
-        "type": "attack-pattern"
+        "timestamp": "2024-08-28T13:08:42.145837+00:00",
+        "title": "Attack Pattern: AP",
+        "type": "ttp"
       },
       "enrichment_extracts": [],
-      "external_url": "https://y-p-340.eng.eiq.sh/entity/a6b22a94-f33e-4260-9b3a-d6a60e4d43f4",
+      "external_url": "https://y-p-340.eng.eiq.sh/entity/85ddbec1-5e0d-4ebf-a766-a7c9c542f8c0",
       "extracts": [],
-      "id": "a6b22a94-f33e-4260-9b3a-d6a60e4d43f4",
+      "id": "85ddbec1-5e0d-4ebf-a766-a7c9c542f8c0",
       "meta": {
-        "estimated_observed_time": "2024-08-28T12:02:24.468184+00:00",
-        "estimated_threat_start_time": "2024-08-28T12:02:24.468184+00:00",
-        "first_ingest_time": "2024-08-28T12:02:24.468184+00:00",
+        "estimated_observed_time": "2024-08-28T13:08:42.105348+00:00",
+        "estimated_threat_start_time": "2024-08-28T13:08:42.105348+00:00",
+        "first_ingest_time": "2024-08-28T13:08:42.105348+00:00",
         "half_life": 720,
-        "ingest_time": "2024-08-28T12:02:24.468184+00:00",
+        "ingest_time": "2024-08-28T13:08:42.105348+00:00",
         "source_reliability": null,
         "tags": [],
-        "title": "U2: AP",
+        "title": "AP",
         "tlp_color": null
       },
       "relevancy": 1.0,
       "sources": [
         {
-          "name": "R23",
-          "source_id": "295d6324-7bd6-4b59-931a-f92c554debd0",
+          "name": "Testing Group",
+          "source_id": "d597a5b4-af4f-4f3e-a16f-037ebb242127",
+          "source_type": "group"
+        }
+      ]
+    }
+  ],
+  "entities_v2": [
+    {
+      "attachments": [],
+      "data": {
+        "confidence": {
+          "type": "confidence",
+          "value": "Unknown"
+        },
+        "description": "<head></head><body></body>",
+        "description_structuring_format": "html",
+        "id": "{http://not-yet-configured.example.org/}attack-pattern-85ddbec1-5e0d-4ebf-a766-a7c9c542f8c0",
+        "information_source": {
+          "type": "information-source"
+        },
+        "timestamp": "2024-08-28T13:08:42.145837+00:00",
+        "title": "AP",
+        "type": "attack-pattern"
+      },
+      "enrichment_extracts": [],
+      "external_url": "https://y-p-340.eng.eiq.sh/entity/85ddbec1-5e0d-4ebf-a766-a7c9c542f8c0",
+      "extracts": [],
+      "id": "85ddbec1-5e0d-4ebf-a766-a7c9c542f8c0",
+      "meta": {
+        "estimated_observed_time": "2024-08-28T13:08:42.105348+00:00",
+        "estimated_threat_start_time": "2024-08-28T13:08:42.105348+00:00",
+        "first_ingest_time": "2024-08-28T13:08:42.105348+00:00",
+        "half_life": 720,
+        "ingest_time": "2024-08-28T13:08:42.105348+00:00",
+        "source_reliability": null,
+        "tags": [],
+        "title": "AP",
+        "tlp_color": null
+      },
+      "relevancy": 1.0,
+      "sources": [
+        {
+          "name": "Testing Group",
+          "source_id": "d597a5b4-af4f-4f3e-a16f-037ebb242127",
           "source_type": "group"
         }
       ]
@@ -52,5 +99,5 @@
   },
   "outgoing_feed_name": "Exported Entities",
   "platform-version": "3.4.0",
-  "timestamp": "2024-08-28T12:02:24.490583+00:00"
+  "timestamp": "2024-08-28T13:08:42.145837+00:00"
 }
