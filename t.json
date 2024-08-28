@@ -1,0 +1,56 @@
+{
+  "content-type": "urn:eclecticiq.com:json:3.0",
+  "enrichments": [],
+  "entities": [],
+  "entities_v2": [
+    {
+      "attachments": [],
+      "data": {
+        "id": "{http://not-yet-configured.example.org/}attack-pattern-a6b22a94-f33e-4260-9b3a-d6a60e4d43f4",
+        "information_source": {
+          "description": "entity is produced by user group",
+          "identity": {
+            "name": "R23",
+            "type": "identity"
+          },
+          "type": "information-source"
+        },
+        "timestamp": null,
+        "title": "U2: AP",
+        "type": "attack-pattern"
+      },
+      "enrichment_extracts": [],
+      "external_url": "https://y-p-340.eng.eiq.sh/entity/a6b22a94-f33e-4260-9b3a-d6a60e4d43f4",
+      "extracts": [],
+      "id": "a6b22a94-f33e-4260-9b3a-d6a60e4d43f4",
+      "meta": {
+        "estimated_observed_time": "2024-08-28T12:02:24.468184+00:00",
+        "estimated_threat_start_time": "2024-08-28T12:02:24.468184+00:00",
+        "first_ingest_time": "2024-08-28T12:02:24.468184+00:00",
+        "half_life": 720,
+        "ingest_time": "2024-08-28T12:02:24.468184+00:00",
+        "source_reliability": null,
+        "tags": [],
+        "title": "U2: AP",
+        "tlp_color": null
+      },
+      "relevancy": 1.0,
+      "sources": [
+        {
+          "name": "R23",
+          "source_id": "295d6324-7bd6-4b59-931a-f92c554debd0",
+          "source_type": "group"
+        }
+      ]
+    }
+  ],
+  "entity_counts": {
+    "ttp": 1
+  },
+  "entity_counts_v2": {
+    "attack-pattern": 1
+  },
+  "outgoing_feed_name": "Exported Entities",
+  "platform-version": "3.4.0",
+  "timestamp": "2024-08-28T12:02:24.490583+00:00"
+}
