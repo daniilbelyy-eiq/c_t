@@ -1,0 +1,101 @@
+{
+  "content-type": "urn:eclecticiq.com:json:3.0",
+  "enrichments": [],
+  "entities": [
+    {
+      "attachments": [],
+      "data": {
+        "behavior": {
+          "attack_patterns": [],
+          "type": "behavior"
+        },
+        "confidence": {
+          "type": "confidence",
+          "value": "Unknown"
+        },
+        "description": "<head></head><body></body>",
+        "description_structuring_format": "html",
+        "id": "{http://not-yet-configured.example.org/}attack-pattern-3b2ffe18-3b05-41ae-becd-ad4ad62117f4",
+        "information_source": {
+          "type": "information-source"
+        },
+        "title": "Attack Pattern: AP",
+        "type": "ttp"
+      },
+      "enrichment_extracts": [],
+      "external_url": "https://y-p-340.eng.eiq.sh/entity/3b2ffe18-3b05-41ae-becd-ad4ad62117f4",
+      "extracts": [],
+      "id": "3b2ffe18-3b05-41ae-becd-ad4ad62117f4",
+      "meta": {
+        "estimated_observed_time": "2024-08-28T13:16:42.770813+00:00",
+        "estimated_threat_start_time": "2024-08-28T13:16:42.770813+00:00",
+        "first_ingest_time": "2024-08-28T13:16:42.770813+00:00",
+        "half_life": 720,
+        "ingest_time": "2024-08-28T13:16:42.770813+00:00",
+        "source_reliability": null,
+        "tags": [],
+        "title": "AP NTS",
+        "tlp_color": null
+      },
+      "relevancy": 1.0,
+      "sources": [
+        {
+          "name": "Testing Group",
+          "source_id": "0fe835ca-e244-42bd-a162-737be636cd38",
+          "source_type": "group"
+        }
+      ]
+    }
+  ],
+  "entities_v2": [
+    {
+      "attachments": [],
+      "data": {
+        "confidence": {
+          "type": "confidence",
+          "value": "Unknown"
+        },
+        "description": "<head></head><body></body>",
+        "description_structuring_format": "html",
+        "id": "{http://not-yet-configured.example.org/}attack-pattern-3b2ffe18-3b05-41ae-becd-ad4ad62117f4",
+        "information_source": {
+          "type": "information-source"
+        },
+        "title": "AP NTS",
+        "type": "attack-pattern"
+      },
+      "enrichment_extracts": [],
+      "external_url": "https://y-p-340.eng.eiq.sh/entity/3b2ffe18-3b05-41ae-becd-ad4ad62117f4",
+      "extracts": [],
+      "id": "3b2ffe18-3b05-41ae-becd-ad4ad62117f4",
+      "meta": {
+        "estimated_observed_time": "2024-08-28T13:16:42.770813+00:00",
+        "estimated_threat_start_time": "2024-08-28T13:16:42.770813+00:00",
+        "first_ingest_time": "2024-08-28T13:16:42.770813+00:00",
+        "half_life": 720,
+        "ingest_time": "2024-08-28T13:16:42.770813+00:00",
+        "source_reliability": null,
+        "tags": [],
+        "title": "AP NTS",
+        "tlp_color": null
+      },
+      "relevancy": 1.0,
+      "sources": [
+        {
+          "name": "Testing Group",
+          "source_id": "0fe835ca-e244-42bd-a162-737be636cd38",
+          "source_type": "group"
+        }
+      ]
+    }
+  ],
+  "entity_counts": {
+    "ttp": 1
+  },
+  "entity_counts_v2": {
+    "attack-pattern": 1
+  },
+  "outgoing_feed_name": "Exported Entities",
+  "platform-version": "3.4.0",
+  "timestamp": "2024-08-28T13:16:42.799202+00:00"
+}
