@@ -18,7 +18,7 @@
           },
           "type": "information-source"
         },
-        "timestamp": "",
+        "timestamp": "2024-06-14T00:45:09.000Z",
         "title": "Attack Pattern: U2: AP",
         "type": "ttp"
       },
@@ -60,7 +60,7 @@
           },
           "type": "information-source"
         },
-        "timestamp": "",
+        "timestamp": "2024-06-14T00:45:09.000Z",
         "title": "U2: AP 2",
         "type": "attack-pattern"
       },
