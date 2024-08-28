@@ -45,6 +45,52 @@
           "source_type": "group"
         }
       ]
+    },
+    {
+      "attachments": [],
+      "data": {
+        "confidence": {
+          "type": "confidence",
+          "value": "Unknown"
+        },
+        "description": "<head></head><body></body>",
+        "description_structuring_format": "html",
+        "id": "{http://not-yet-configured.example.org/}course-of-action-8843a74f-9401-4de7-b8ee-6afb8e93882c",
+        "information_source": {
+          "description": "entity is produced by user group",
+          "identity": {
+            "name": "R23",
+            "type": "identity"
+          },
+          "type": "information-source"
+        },
+        "timestamp": "2024-08-28T13:28:34.080574+00:00",
+        "title": "COA",
+        "type": "course-of-action"
+      },
+      "enrichment_extracts": [],
+      "external_url": "https://y-p-340.eng.eiq.sh/entity/8843a74f-9401-4de7-b8ee-6afb8e93882c",
+      "extracts": [],
+      "id": "8843a74f-9401-4de7-b8ee-6afb8e93882c",
+      "meta": {
+        "estimated_observed_time": "2024-08-28T13:28:34.052261+00:00",
+        "estimated_threat_start_time": "2024-08-28T13:28:34.052261+00:00",
+        "first_ingest_time": "2024-08-28T13:28:34.052261+00:00",
+        "half_life": 182,
+        "ingest_time": "2024-08-28T13:28:34.052261+00:00",
+        "source_reliability": null,
+        "tags": [],
+        "title": "COA",
+        "tlp_color": null
+      },
+      "relevancy": 1.0,
+      "sources": [
+        {
+          "name": "R23",
+          "source_id": "295d6324-7bd6-4b59-931a-f92c554debd0",
+          "source_type": "group"
+        }
+      ]
     }
   ],
   "entities_v2": [
@@ -84,6 +130,52 @@
         {
           "name": "R23",
           "source_id": "d88c4138-7ed0-42d5-b678-6d5e04d3a81f",
+          "source_type": "group"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "data": {
+        "confidence": {
+          "type": "confidence",
+          "value": "Unknown"
+        },
+        "description": "<head></head><body></body>",
+        "description_structuring_format": "html",
+        "id": "{http://not-yet-configured.example.org/}course-of-action-8843a74f-9401-4de7-b8ee-6afb8e93882c",
+        "information_source": {
+          "description": "entity is produced by user group",
+          "identity": {
+            "name": "R23",
+            "type": "identity"
+          },
+          "type": "information-source"
+        },
+        "timestamp": "2024-08-28T13:28:34.080574+00:00",
+        "title": "COA",
+        "type": "course-of-action"
+      },
+      "enrichment_extracts": [],
+      "external_url": "https://y-p-340.eng.eiq.sh/entity/8843a74f-9401-4de7-b8ee-6afb8e93882c",
+      "extracts": [],
+      "id": "8843a74f-9401-4de7-b8ee-6afb8e93882c",
+      "meta": {
+        "estimated_observed_time": "2024-08-28T13:28:34.052261+00:00",
+        "estimated_threat_start_time": "2024-08-28T13:28:34.052261+00:00",
+        "first_ingest_time": "2024-08-28T13:28:34.052261+00:00",
+        "half_life": 182,
+        "ingest_time": "2024-08-28T13:28:34.052261+00:00",
+        "source_reliability": null,
+        "tags": [],
+        "title": "COA",
+        "tlp_color": null
+      },
+      "relevancy": 1.0,
+      "sources": [
+        {
+          "name": "R23",
+          "source_id": "295d6324-7bd6-4b59-931a-f92c554debd0",
           "source_type": "group"
         }
       ]
