@@ -182,10 +182,12 @@
     }
   ],
   "entity_counts": {
+    "course-of-action": 1,
     "ttp": 1
   },
   "entity_counts_v2": {
-    "attack-pattern": 1
+    "attack-pattern": 1,
+    "course-of-action": 1
   },
   "outgoing_feed_name": "Exported Entities",
   "platform-version": "3.4.0",
